@@ -1,0 +1,80 @@
+body {
+  background-color: #A6E3E9;
+  padding: 70px;
+  font-family: 'Comic Neue', cursive;
+}
+.title-container {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.game-title {
+  display: flex;
+  justify-content: center; 
+  width: 600px; 
+  margin: 0 auto; /* Center horizontally */
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 60px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adjusted gap for visual spacing */
+}
+
+.playBtn {
+  padding-top: 28px;
+  border: 3px solid white;
+  border-radius: 50%; /* Circular buttons */
+  overflow: hidden;
+  height: 170px;
+  width: 170px;
+  background-color: #CBF1F5;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.playBtn img {
+  height: 100%;
+  width: 100%;
+}
+
+.score-container {
+  text-align: center;
+  margin-top: 30px; /* Additional margin for spacing */
+}
+.underline{
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: blueviolet;
+}
+
+#scoreDisplay {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#btnRock{
+  background-color: #ffe84a;
+}
+
+#btnPaper{
+  background-color: #00e0d5;
+}
+#btnScissors{
+  background-color: #f0baf4;
+}
+
+#scoreDisplay{
+  display: inline;
+  font-size: 40px;
+  background-color: white;
+  border: 0;
+  border-radius: 30px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
